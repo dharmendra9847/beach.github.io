@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beaches Landing | HomePage</title>
+
+    <!-- Google Fonts link -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../Image & vedios/favicon_io1/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../Image & vedios/favicon_io1/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../Image & vedios/favicon_io1/favicon-16x16.png"
+    />
+
+    <!-- Bootstrap link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="travel.css" />
+  </head>
+  <body>
+    <section class="showcase">
+      <header class="showcase-header">
+        <a href="travel.html"><h2 class="logo">Beaches</h2></a>
+        <div class="toggle"></div>
+      </header>
+
+      <video
+        class="background-vedio"
+        src="../Image & vedios/ocean.mp4"
+        type="ocean/mp4"
+        muted
+        loop
+        autoplay
+      ></video>
+
+      <div class="overlay"></div>
+
+      <div class="text">
+        <h2 class="text-tilte">Never Stop</h2>
+        <h3 class="text-subtilte">Exploring The World</h3>
+        <p class="text-description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
+          aliquam sed consequatur modi molestias consectetur aperiam expedita
+          laudantium? Neque, mollitia.
+        </p>
+        <a class="text-button" href="../index.html">Explore</a>
+      </div>
+
+      <ul class="social-media-lists">
+        <li class="social-media-lists-item">
+          <a
+            class="social-media-links"
+            href="https://www.facebook.com/mybeachaddiction/"
+          >
+            <img src="../Image & vedios/svg/facebook.svg" alt="facebook" />
+          </a>
+        </li>
+        <li class="social-media-lists-item">
+          <a
+            class="social-media-links"
+            href="https://twitter.com/i/flow/login?redirect_after_login=%2FAddictedBeach"
+          >
+            <img src="../Image & vedios/svg/twitter.svg" alt="twitter" />
+          </a>
+        </li>
+        <li class="social-media-lists-item">
+          <a class="social-media-links" href="#">
+            <img src="../Image & vedios/svg/instagram.svg" alt="instagram" />
+          </a>
+        </li>
+        <li class="social-media-lists-item">
+          <a class="social-media-links" href="#">
+            <img src="../Image & vedios/svg/whatsapp.svg" alt="whatsapp" />
+          </a>
+        </li>
+        <li class="social-media-lists-item">
+          <a class="social-media-links" href="#">
+            <img src="../Image & vedios/svg/google.svg" alt="google" />
+          </a>
+        </li>
+        <li class="social-media-lists-item">
+          <a class="social-media-links" href="#">
+            <img src="../Image & vedios/svg/linkedin.svg" alt="linkedin" />
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <div class="menu">
+      <ul class="menu-lists">
+        <li class="menu-lists-item">
+          <a class="menu-link" href="../index.html"></a>Home
+        </li>
+        <li class="menu-lists-item">
+          <a
+            class="menu-link"
+            href="https://timesofindia.indiatimes.com/topic/beach/news"
+          ></a
+          >News
+        </li>
+        <li class="menu-lists-item">
+          <a
+            class="menu-link"
+            href="https://www.beaches.com/blog/destinations/"
+          ></a
+          >Destination
+        </li>
+        <li class="menu-lists-item">
+          <a class="menu-link" href="https://www.beaches.com/blog/"></a>Blogs
+        </li>
+        <li class="menu-lists-item">
+          <a
+            class="menu-link"
+            href="https://www.beaches.com/blog/activities-attractions/"
+          ></a
+          >About Us
+        </li>
+      </ul>
+    </div>
+
+    <!-- Javascript link  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Javascript code -->
+    <script>
+      const menuToggle = document.querySelector(".toggle");
+      const showcase = document.querySelector(".showcase");
+
+      menuToggle.addEventListener("click", () => {
+        menuToggle.classList.toggle("active");
+        showcase.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
