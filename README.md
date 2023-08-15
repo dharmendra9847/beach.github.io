@@ -1,7 +1,7 @@
 ## beach.github.io
 A Responsive background video for Web Application which provides web services.
 
-##Tech Stack 🛠️
+## Tech Stack 🛠️
 
 - HTML5
 - CSS3
